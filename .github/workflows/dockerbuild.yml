@@ -28,7 +28,7 @@ jobs:
       - id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: zwavejs/zwavejs2mqtt
+          images: raz0rf0x/zwavejs2mqtt
           tag-sha: true
           tag-latest: true
           tag-semver: |
